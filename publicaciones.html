@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicaciones</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="publicaciones.css">
+
+
+</head>
+<body>
+
+    <section class="fond">
+
+        <h5>Publicar</h5>
+
+        
+
+        <input class="controls" type="text" name="Escribir" value="" id="TextNombUsu1" placeholder="Nombre de Usuario">
+        <input class="controls" type="text" name="Escribir" value="" id="TextFecPubl1"placeholder="Fecha de Publicacion">
+        <input class="controls" type="text" name="Escribir" value="" id="TextComent1" placeholder="Escribir Algo">
+        
+        <br>
+        
+
+        <div class="center">
+        <div class="form-input">
+         <div class="preview">
+             <img src="" alt="" id="file-ip-1-preview">
+              
+        </div>
+             
+        
+             
+        <label for="file-ip-1"> Subir Imagen</label>
+        <input type="file"  id="file-p-1" accept="image/*" onchange="showPreview(event);">
+             
+        </div>
+        </div>
+            
+        <br>
+        <br>
+             
+             
+        <input class="button1" id="botonText" type="submit" name="" onclick="enviarTexto()" value="Publicar">
+        <p><a href="#"> </a></p>
+
+        
+
+    </section>
+
+    <section class="Publi">
+
+        <input class="controls" type="text" id="TextNombUsu" readonly="readonly">
+        <input class="controls" type="text" id="TextFecPubl" readonly="readonly">
+        <input class="controls" type="text" id="TextComent" readonly="readonly">
+        
+         
+        
+
+    </section>
+
+
+    <header>
+
+        <div class="menu">
+
+            <img src="imgpagweb/logwe2 (1).png" alt="">
+            <nav>
+                <ul>
+                    <li><a href="dashboard.html">Inicio</a></li>
+                    <li><a href="libros.html">Busqueda Avanzada</a></li>
+                    <li><a href="Publicaciones.html">Publicaciones</a></li>
+                    <li><a href="iniciar sesion.html">Iniciar Sesion</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   
+
+    <footer>
+
+        <div class="footer-content">
+
+
+
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+
+
+            </ul>
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>2023 &copy; El coco que lee, LLC. Todos los derechos reservados <span></span></p>
+
+        </div>
+
+
+    </footer>
+
+
+
+</body>
+</html>
