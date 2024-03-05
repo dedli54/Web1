@@ -24,17 +24,19 @@
  
     .fond {
 
-        width: 600px;
-        height: 604px;
-        background: #fd7e14;
+        width: 700px;
+        height: 720px;
+        background:  #fd7e14;
         margin: auto;
-        margin-right: 350px;
-        margin-top: 150px;
+        margin-top: 230px;
+        margin-right: 300px;
         box-shadow: 7px 13px 37px black;
         padding: 20px 30px;
         border-top: 4px solid rgb(255, 237, 137);
         border-bottom: 4px solid rgb(255, 237, 137);
         color: white;
+        display: block;
+    
         
         }
 
@@ -272,7 +274,7 @@
 
 footer {
     position: relative;
-    bottom: -800px;
+    bottom: -400px;
     left: 0;
     right: 0;
     background:  #fd7e14;
