@@ -179,7 +179,7 @@ header{
 
 footer {
     position: absolute;
-    bottom: -700px;
+    bottom: 0px;
     left: 0;
     right: 0;
     background: #fd7e14;
